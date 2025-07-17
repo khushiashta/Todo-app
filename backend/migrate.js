@@ -5,7 +5,7 @@ const pool = new pg.Pool({
   user: "khushiashta",
   host: "localhost",
   database: "todo_app",
-  password: "", // Update if needed
+  password: "", 
   port: 5432,
 });
 
