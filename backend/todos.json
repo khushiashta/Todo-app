@@ -1,0 +1,5 @@
+{"_id":{"$oid":"686f4d08cfa31b72e8e870d8"},"title":"codeee","description":"","completed":false,"createdAt":{"$date":"2025-07-10T05:18:00.065Z"},"updatedAt":{"$date":"2025-07-10T05:18:00.065Z"},"__v":0}
+{"_id":{"$oid":"686f4d1dcfa31b72e8e870dc"},"title":"groceries","description":"","completed":false,"createdAt":{"$date":"2025-07-10T05:18:21.329Z"},"updatedAt":{"$date":"2025-07-10T05:18:21.329Z"},"__v":0}
+{"_id":{"$oid":"686f5d331ceded0bc7c0381d"},"title":"buy groceries","description":"","user":{"$oid":"686f51963a5b76d07efd9dd3"},"createdAt":{"$date":"2025-07-10T06:26:59.513Z"},"__v":0,"completed":true}
+{"_id":{"$oid":"686f658d8343efcfa07bf946"},"title":"buy laptop","description":"","user":{"$oid":"686f51963a5b76d07efd9dd3"},"createdAt":{"$date":"2025-07-10T07:02:37.691Z"},"__v":0}
+{"_id":{"$oid":"6874b03e78440ea0c9d1621f"},"title":"codee","description":"","user":{"$oid":"6870ad16f56934b2e029dc53"},"createdAt":{"$date":"2025-07-14T07:22:38.131Z"},"__v":0,"completed":true}

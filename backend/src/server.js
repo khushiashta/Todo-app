@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import todosRoutes from "./routes/todosRoutes.js"; 
-import { connectDB } from "./config/db.js";
+import authRoutes from "./routes/authRoutes.js";
 import rateLimiter from "./middleware/rateLimiter.js";
 
 dotenv.config();
@@ -17,9 +17,13 @@ app.use(express.json());
 app.use(rateLimiter);
 
 app.use("/api/todos", todosRoutes); 
+app.use("/api/auth", authRoutes);
 
-connectDB().then(() => {
-  app.listen(PORT, () => {
-    console.log("Server started on PORT:", PORT);
-  });
+
+app.listen(PORT, () => {
+  console.log("Server started on PORT:", PORT);
 });
+
+// connectDB().then(() => {
+
+// });

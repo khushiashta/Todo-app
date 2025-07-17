@@ -17,7 +17,7 @@ const LoginPage = () => {
     }
 
     try {
-        const res = await api.post("/todos/auth/login", { email, password });
+        const res = await api.post("/auth/login", { email, password });
 
         localStorage.setItem("token", res.data.token);
         localStorage.setItem("email", res.data.email);

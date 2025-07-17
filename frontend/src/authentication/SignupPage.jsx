@@ -19,7 +19,7 @@ const SignupPage = () => {
     }
 
     try {
-        await api.post("/todos/auth/signup", {
+        await api.post("/auth/signup", {
             username,
             email,
             password,
